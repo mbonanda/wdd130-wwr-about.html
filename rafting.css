@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --Primary-color: #32CBFF;
+    --Secondary-color: #EAF0CE;
+    --Accent1-color: #D3C2CE;
+    --Accent2-color: #88BB92;
+
+    --heading-font: 'verdana', serif;
+
+    --nav-background-color: #eaf0ce;
+    --nav-link-color: rgba(44, 115, 230, 0.8);
+    --nav-hover-link-color: #66b066;
+    --nav-hover-background-color: rgba(165, 32, 119, 0);
+
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header {
+    display: grid;
+    padding: 20px;
+    background-color: steelblue;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: steelblue;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: #aaa;
+    background-color: #0e2667;
+}
